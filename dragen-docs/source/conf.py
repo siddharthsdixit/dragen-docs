@@ -27,12 +27,12 @@ exclude_patterns = []
 # html_theme = 'pydata_sphinx_theme'
 html_theme = 'furo'
 html_static_path = ['_static']
-html_theme_options = {
-    "logo": {
-        "text": "DRAGEN Docs",
-    },
-    "navbar_end": ["theme-switcher", "navbar-icon-links"],
-}
+# html_theme_options = {
+#     "logo": {
+#         "text": "DRAGEN Docs",
+#     },
+#     "navbar_end": ["theme-switcher", "navbar-icon-links"],
+# }
 html_css_files = [
     "custom.css",
 ]
